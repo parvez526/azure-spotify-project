@@ -1,0 +1,9 @@
+{
+	"name": "df-azproj",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ca3f6e6a-2a91-4be4-b2c6-cd5534f65465",
+		"tenantId": "b3feb272-6c05-4bf6-bceb-8c88206af135"
+	}
+}
