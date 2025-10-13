@@ -256,7 +256,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"p_container": "bronze",
-													"p_folder": "@{pipeline().parameters.table}_cdc",
+													"p_folder": {
+														"value": "@{item().table}_cdc",
+														"type": "Expression"
+													},
 													"p_file": "empty.json"
 												}
 											}
